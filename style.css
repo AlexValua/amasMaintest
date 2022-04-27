@@ -1,0 +1,240 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+html{
+    background-color: rgb(24, 24, 100);
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+/*---------Header-------------*/
+#header{
+    padding-left: 5%;
+    display: block;
+    height: 9vh;
+
+}
+
+#logo{
+    height: 10vh;
+}
+
+/*-----------main-------------*/
+#main{
+    padding-top: 5vh;
+    display: block;
+    height: 65vh;
+  
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#girl{
+    display: inline-block;
+    width: 35%;
+    height: 50vh;
+
+}
+
+
+#text{
+    padding-top: 5%;
+    padding-left: 2% ;
+    padding-right: 2% ; 
+    display: inline-block;
+    width: 50%;
+    height: 50vh;
+
+    align-items: center;
+}
+
+h1{
+    display: inline-block;
+    margin: 0;
+    font-size: 25px;
+}
+
+p{
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+#btn{
+    color:white;
+    width: 60%;
+    height: 6vh;
+    background-color: rgb(41, 124, 171);
+    border: none;
+    border-radius: 20px;
+    margin-top: 5%;
+    font-size: 25px;
+}
+
+
+/*----------------------Footer---------------*/
+#footer{
+    display: block;
+    height: 15vh;
+
+    text-align: center;
+}
+
+#foot0{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 4vh;
+
+}
+
+#f{
+    margin-right: 2%;
+}
+
+#in{
+    margin-left: 2%;
+}
+
+#foot1, #foot3{
+    justify-content: center;
+    display: inline-block;
+    width: 35vh;
+    height: 5vh;
+    margin-left: 0%;
+    
+}
+
+#foot2{
+    justify-content: center;
+    display: inline-block;
+    width: 45%;
+    height: 5vh;
+    margin-left: 0%;
+    
+}
+
+#foot3{
+    margin-bottom: 2%;
+}
+
+h3{
+    display: inline-block;
+}
+
+@media only screen and (max-device-width:580px) {
+    h3{
+        font-size: 25px;
+    }
+
+    #foot0, #foot1, #foot2, #foot3{
+        height: 3.5vh;
+    }
+
+    #f{
+        width: 2vh;
+    }
+
+    #in{
+        width: 3vh;
+    }
+}
+
+@media only screen and (max-device-width:485px) {
+    #main{
+        height: 50vh;
+    }
+    
+    #girl{
+        display: none;
+        width: 0vh;
+        height: 0vh;
+        background-color: black;
+    }
+
+    #text{
+        width: 85%;
+    }
+
+    h1{
+        margin-bottom: 7%;
+        font-size: 40px;
+    }
+    p{
+        margin-top: 5%;
+        font-size: 35px;
+    }
+
+    #btn{
+        margin-top: 15%;
+        width: 40vh;
+    }
+
+    #f{
+        margin-right: 7%;
+    }
+
+    #in{
+        margin-left: 7%;
+    }
+
+    #foot0{
+        width: 40%;
+    }
+
+    #foot2{
+        width: 70%;
+    }
+
+
+    
+
+
+    h3{
+        font-size: 32px;
+    }
+}
+
+@media only screen and (max-device-width:360px) {
+    
+    #main{
+        height: 50vh;
+    }
+
+    #text{
+        width: 80vh;
+    }
+
+    h1{
+        font-size: 40px;
+        margin-bottom: 7%;
+    }
+     p{
+         margin-top: 4%;
+        font-size: 35px;
+    }
+
+    #btn{
+        width: 85%;
+        font-size: 38px;
+    }
+
+    h3{
+        font-size: 35px;
+    }
+
+    #foot2{
+        width: 70%;
+    }
+}
